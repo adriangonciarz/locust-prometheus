@@ -1,0 +1,8 @@
+FROM node:14.4.0-stretch
+
+WORKDIR /api
+
+RUN npm install -g json-server
+ENV PORT=3131
+
+CMD json-server --watch /api/db.json --port $PORT --host 0.0.0.0

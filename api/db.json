@@ -1,0 +1,20 @@
+{
+  "posts": [
+    { "id": 1, "title": "Test Title 1", "author": "alysson3" },
+    { "id": 2, "title": "Test Title 2", "author": "john" },
+    { "id": 3, "title": "Test Title 3", "author": "mike" },
+    { "id": 4, "title": "Test Title 4", "author": "marry" },
+    { "id": 5, "title": "Test Title 5", "author": "kate" },
+    { "id": 6, "title": "Test Title 6", "author": "ag" },
+    { "id": 7, "title": "Test Title 7", "author": "ag2" },
+    { "id": 8, "title": "Test Title 8", "author": "ag3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment 1", "postId": 1 },
+    { "id": 2, "body": "some comment 2", "postId": 2 },
+    { "id": 3, "body": "some comment 3", "postId": 1 },
+    { "id": 4, "body": "some comment 4", "postId": 3 },
+    { "id": 5, "body": "some comment 5", "postId": 4 }
+  ],
+  "profile": { "name": "typicode" }
+}
